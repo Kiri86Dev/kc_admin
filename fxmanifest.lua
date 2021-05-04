@@ -1,8 +1,6 @@
 fx_version 'bodacious'
 game 'gta5'
 
---[[dependecy 'essentialmode']]
-
 ui_page 'html/index.html'
 
 file {
