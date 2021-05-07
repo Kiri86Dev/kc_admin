@@ -555,7 +555,7 @@ function Client() {
     money_select.id = "money_select";
     money_select.className = "form-control";
     
-    var money_types = [["Cartera", "cash"], [ "Banco", "bank"], ["Negro", "black_money"], ["PC", "poke_coins"]];
+    var money_types = [["Cartera", "money"], [ "Banco", "bank"], ["Negro", "black_money"], ["PC", "poke_coins"]];
     
     for (let type in money_types) {
         var html = money_types[type][0];
